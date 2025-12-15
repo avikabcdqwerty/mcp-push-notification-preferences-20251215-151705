@@ -1,7 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import type { NextPage, GetServerSidePropsContext } from 'next';
-import type { NextApiRequest, NextApiResponse } from 'next';
-import type { PrismaClient } from '@prisma/client';
 import { getSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import jwt from 'jsonwebtoken';
