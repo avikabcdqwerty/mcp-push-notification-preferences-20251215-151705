@@ -1,0 +1,90 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+prisma/.env
+
+# Jest
+coverage/
+jest-coverage/
+*.lcov
+
+# VSCode settings
+.vscode/
+.history/
+
+# ESLint/Prettier cache
+.eslintcache
+.prettiercache
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.local
+*.sublime-workspace
+*.sublime-project
+
+# PostgreSQL
+*.pgsql
+*.psql
+*.db
+*.sqlite
+
+# Next.js export
+.exported/
+
+# Mac system files
+Icon?
+._*
+
+# Optional: ignore generated JWT secrets or keys
+jwt-secret.*
+jwt.key
+jwt.pem
+
+# Optional: ignore crypto-generated files
+*.key
+*.pem
+*.crt
+
+# Optional: ignore API route test artifacts
+api-test-results/
+
+# Optional: ignore temporary files
+tmp/
+temp/
+*.tmp
+
+# Optional: ignore coverage from other tools
+.nyc_output/
+coverage-final.json
