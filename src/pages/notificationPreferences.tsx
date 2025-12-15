@@ -1,6 +1,3 @@
-import { getSession } from 'next-auth/react';
-import { useRouter } from 'next/router';
-import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import axios from 'axios';
 
